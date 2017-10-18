@@ -43,7 +43,7 @@ C&R Press
 		<header id="masthead" role="banner">
 
     		<div id="hgroup-wrap" class="container">
-        	<a href="http://crpress.org/"><img src="<?php bloginfo('template_directory'); ?>/images/CRLogo_bw.png"/></a>
+        	<a href="http://crpress.org/"><img src="<?php bloginfo('stylesheet_directory'); ?>/images/CRLogo_bw.png"/></a>
 
 
           <div id="crpress-header-widget" class="crpress-widget">
