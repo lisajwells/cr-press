@@ -4,15 +4,16 @@
 
 add_filter('widget_text', 'do_shortcode');
 
+// load child-theme responsive.css after parent
 function crpress_scripts() {
 
 	wp_enqueue_style( 'crpress-responsive', get_stylesheet_directory_uri() . '/css/responsive.css' );
 }
-add_action( 'wp_enqueue_scripts', 'crpress_scripts' );
+add_action( 'wp_enqueue_scripts', 'crpress_scripts', 99 );
 
 
 /**
- * Custom C&R Press Functions
+ * Custom C&R Press Functions from former customized theme
  */
 
 /**
