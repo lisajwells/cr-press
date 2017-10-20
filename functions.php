@@ -1,8 +1,15 @@
 <?php
-/**
+/** C&R Press
  */
 
 add_filter('widget_text', 'do_shortcode');
+
+function crpress_scripts() {
+
+	wp_enqueue_style( 'crpress-responsive', get_stylesheet_directory_uri() . '/css/responsive.css' );
+}
+add_action( 'wp_enqueue_scripts', 'crpress_scripts' );
+
 
 /**
  * Custom C&R Press Functions
