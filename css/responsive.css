@@ -1,5 +1,16 @@
 /* =Responsive Structure
 ----------------------------------------------- */
+/*
+@media screen and (min-width: 1190px) {
+@media screen and (max-width: 1060px) {
+@media screen and (max-width: 960px) {
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) { /* Pad Portrait
+@media screen and (max-width: 767px) {
+@media only screen and (min-width: 480px) and (max-width: 767px) {  /* iPhone Landscape
+@media screen and (max-width: 480px) {                              /* iPhone Portrait
+@media screen and (max-width: 320px) {                              /* Small Devices
+
+*/
 
 @media screen and (min-width: 1190px) {
 .site {
